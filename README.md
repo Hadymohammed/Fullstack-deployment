@@ -1,5 +1,5 @@
 ## Fullstack-deployment
-Deploy a full-stack project using AWS and CircleCi 
+Deploy a prebuilt full-stack project using AWS and CircleCi 
 
 ## Project setup
 1. clone the project
@@ -37,3 +37,4 @@ note!
 ## Apps' Links
 * API : [http://udagram-api-dev.eba-pzznmwky.us-east-1.elasticbeanstalk.com/](http://udagram-api-dev.eba-pzznmwky.us-east-1.elasticbeanstalk.com/)
 * Frontend app : [http://abdelhady-udagram.s3-website-us-east-1.amazonaws.com](http://abdelhady-udagram.s3-website-us-east-1.amazonaws.com)
+ 
