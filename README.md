@@ -1,6 +1,6 @@
 ## Fullstack-deployment
 Deploy a prebuilt full-stack project using AWS and CircleCi 
-
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Hadymohammed/Fullstack-deployment/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Hadymohammed/Fullstack-deployment/tree/main)
 ## Project setup
 1. clone the project
 2. Install backend dependencies : 
