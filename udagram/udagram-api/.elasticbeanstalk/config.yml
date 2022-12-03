@@ -9,7 +9,7 @@ global:
   branch: null
   default_ec2_keyname: vockey
   default_platform: Node.js 16 running on 64bit Amazon Linux 2
-  default_region: us-east-1
+  default_region: us-east-1f
   include_git_submodules: true
   instance_profile: null
   platform_name: null
