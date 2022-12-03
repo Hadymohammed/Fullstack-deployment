@@ -42,8 +42,11 @@ jobs:
             npm run backend:build
       # Deployment process
       - run:
-          name: Deploy App
-          # Install, build, deploy in both apps
+          name: Deploy app-api
           command: |
-            npm run deploy
+            npm run backend:deploy
+      - run:
+          name: Deploy app-frontend
+          command: |
+            npm run frontend:deploy
       
