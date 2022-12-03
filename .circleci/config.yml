@@ -36,7 +36,11 @@ jobs:
       - run:
           name: API Build
           command: |
-            npm run 
+            npm run backend:build
+      - run:
+          name: Test frontend
+          command: |
+            npm run frontend:test
   # deploy step will run only after manual approval
   deploy:
     docker:
