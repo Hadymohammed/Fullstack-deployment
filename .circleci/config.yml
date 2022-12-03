@@ -41,10 +41,6 @@ jobs:
           name: API Build
           command: |
             npm run backend:build
-  test:
-    docker:
-      - image: "cimg/node:14.15"
-    steps:
       - run:
           name: Test frontend
           command: |
