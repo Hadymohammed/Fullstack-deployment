@@ -69,4 +69,3 @@ workflows:
       - deploy:
           requires:
             - hold
-Footer
