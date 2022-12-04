@@ -8,6 +8,7 @@
     "start": "ng serve",
     "build": "ng build",
     "deploy": "chmod +x bin/deploy.sh && ./bin/deploy.sh",
+    "setenv":"chmod +x bin/set_env.sh && ./bin/set_env.sh",
     "test": "ng test --watch=false",
     "lint": "ng lint",
     "e2e": "ng e2e"
