@@ -41,7 +41,7 @@ jobs:
           command: |
             npm run backend:build
       # Deployment process
-       -run: 
+      - run: 
           name: set env variables
           command: |
             npm run setenv
