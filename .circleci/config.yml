@@ -41,6 +41,11 @@ jobs:
           command: |
             npm run backend:build
       # Deployment process
+      -run: 
+        name: set env variables
+        command: |
+            npmn run setenv
+
       - run:
           name: Deploy app-api
           command: |
