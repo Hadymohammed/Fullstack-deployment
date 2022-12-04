@@ -41,15 +41,6 @@ jobs:
           command: |
             npm run backend:build
       # Deployment process
-  deploy:
-    docker:
-      - image: "cimg/base:stable"
-    steps:
-      - node/install:
-          node-version: '14.15' 
-      - eb/setup
-      - aws-cli/setup
-      - checkout
       - run:
           name: Deploy app-api
           command: |
@@ -61,16 +52,9 @@ jobs:
 workflows:
   udagram:
     jobs:
-      - build
-      - hold:
-          filters:
-            branches:
-              only:
-                - master
-          type: approval
-          requires:
-            - build
-      - deploy:
-          requires:
-            - hold
+      - build:
+            filters:
+              branches:
+                only:
+                  - main
       
