@@ -1,4 +1,4 @@
-## Fullstack-deployment
+## Udagram-deployment
 Deploy a prebuilt full-stack project using AWS and CircleCi 
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/Hadymohammed/Fullstack-deployment/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Hadymohammed/Fullstack-deployment/tree/main)
 ## Project setup
