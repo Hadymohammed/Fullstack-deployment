@@ -1,5 +1,5 @@
 ## Udagram-deployment
-Deploy a prebuilt full-stack project using AWS and CircleCi 
+Deploy a prebuilt full-stack project using AWS and CircleCi sponsored by Udacity (temporary links)
 ## Project setup
 1. clone the project
 2. Install backend dependencies : 
